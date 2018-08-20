@@ -8,6 +8,6 @@
 
 ```$ heroku login``` log in to your heroku account  
 ```$ heroku create appname``` create a new app in your heroku account after logged in  
-```$ git push heroku master``` to push commits live to heroku server  
+```$ git push heroku master``` to deploy app live to heroku server. This command only pushes the dependencies from package.json (not dev-dependencies).  
 ```$ heroku open``` see heroku app live  
 ```$ heroku logs``` see keroku server error logs  
